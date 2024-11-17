@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Load the model
-model = load_model('GTSRB_model.h5')
+model = load_model('TSR.h5')
 
 # Function to make predictions (for image input)
 def predict_image(image):
