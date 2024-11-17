@@ -28,7 +28,7 @@ classes = {
 # Function to make predictions (for image input)
 def predict_image(image):
     # Preprocess the image (resize to 224x224, convert to array, normalize, etc.)
-    image = image.resize((224, 224))  # Resize image to 224x224
+    image = image.resize((30, 30))  # Resize image to 224x224
     image = np.array(image)           # Convert image to numpy array
     image = image.astype('float32') / 255.0  # Normalize to 0-1 range
     image = np.expand_dims(image, axis=0)  # Add batch dimension (1, 224, 224, 3)
