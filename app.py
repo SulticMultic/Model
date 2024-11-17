@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load the model
-model = load_model('enhanced_model.h5')
+model = load_model('GTSRB_model.h5')
 
 # Define the class labels as per your dictionary
 classes = {  
