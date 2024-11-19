@@ -1,6 +1,11 @@
-from flask import Flask, Response, jsonify
 import cv2
-import torch
+import numpy as np
+from flask import Flask, render_template, request, Response
+from flask_socketio import SocketIO
+import torch  # Импортируем torch для работы с YOLOv5
+import pathlib
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
 
 app = Flask(__name__)
 
