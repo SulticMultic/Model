@@ -1,5 +1,5 @@
 Flask
 flask-socketio
-torch==2.0.1
+torch
 opencv-python
 numpy
