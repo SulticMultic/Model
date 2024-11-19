@@ -3,3 +3,4 @@ flask-socketio
 torch
 opencv-python
 numpy
+cv2
