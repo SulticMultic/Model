@@ -1,5 +1,5 @@
-Flask==3.0.0
-flask-socketio==5.3.3
+Flask
+flask-socketio
 torch==2.0.1
-opencv-python==4.8.1.78
-numpy==1.24.5
+opencv-python
+numpy
